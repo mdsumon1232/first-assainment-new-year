@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header start */
+header {
+    width: 100%;
+    height: 800px;
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+header>h1 {
+    color: #151414;
+    width: 525px;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    margin-left: 845px;
+    padding-top: 216px;
+
+}
+
+header>p {
+    width: 494px;
+    margin-left: 876px;
+    text-align: right;
+    margin-top: 24px;
+}
+
+header>button {
+    background-color: #F15B22;
+    padding: 10px 15px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 1210px;
+    margin-top: 32px;
+}
+
+/* header end */
+/* main start */
+main {
+    width: 100%;
+}
+
+.failures-previous {
+    width: 1072px;
+    height: auto;
+    margin: 130px auto;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 570px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.failures-descripe {
+    width: 416px;
+    margin-left: 87px;
+    text-align: left;
+}
+
+.failures-descripe>h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failures-descripe>p {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.failures-descripe>ul {
+    margin-top: 16px;
+}
+
+.failures-descripe>ul>li {
+    margin-bottom: 8px;
+}
+
+.Plans-corner {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.Plans-corner>h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.plans-item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plan>img {
+    width: 90px;
+    height: 90px;
+}
+
+.plan>h3 {
+    font-size: 30px;
+}
+
+.plan>p {
+    font-size: 25px;
+}
+
+.advice {
+    width: 1140px;
+    height: 300px;
+    margin: 125px auto;
+    background-image: linear-gradient(to right, #ee5c23c2, #ffffff38), url(images/watch.png);
+}
+
+.advice>h2 {
+    width: 450px;
+    font-size: 40px;
+    margin-left: 65px;
+    padding-top: 50px;
+}
+
+.btn {
+    margin-left: 64px;
+    color: #F15B22;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.message {
+    width: 800px;
+    margin: 30px auto;
+}
+
+form {
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+form>h2 {
+    text-align: center;
+    padding: 15px 5px;
+}
+
+input {
+    width: 90%;
+    margin-left: 30px;
+    margin-bottom: 8px;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 3px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+textarea {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.form-btn {
+    background-color: #F15B22;
+    width: 100px;
+    padding: 10px 15px;
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: 5px;
+
+}
+
+/* main end */
+/* footer start */
+footer {
+    width: 100%;
+    height: 580px;
+    background-color: #151414;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.future {
+    width: 485px;
+    height: 320px;
+    margin-left: 230px;
+}
+
+.future>h4 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future-text {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.contact {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.social-icon {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon>img {
+    width: 47px;
+    height: 47px;
+}
+
+.subscribe {
+    width: 325px;
+    height: 204px;
+    margin-right: 200px;
+}
+
+.subscribe>h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.subscribe>input {
+    width: 325px;
+    height: 64px;
+    padding-left: 10px;
+}
+
+/* footer end */
